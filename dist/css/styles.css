@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+  list-style: none;
+}
+img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+body {
+  background-color: #14131A;
+  color: #fff;
+}
+body .container {
+  max-width: 1140px;
+  margin: auto;
+}
+body .header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+body .header .logoLink {
+  display: inline-block;
+  max-width: 46px;
+}
+body .header .nav .nav__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .header .nav .nav__list .list__item {
+  display: inline-block;
+}
+body .header .nav .nav__list .list__item .list__link {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin-left: 50px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+body .header .nav .nav__list .list__item .list__link:hover {
+  text-decoration: underline;
+}
+body .film .film__text .date {
+  display: block;
+  line-height: 28px;
+  font-size: 24px;
+  margin-bottom: 38px;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .film .film__text .film__description {
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 423px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 47px;
+}
+body .film .film__text .film__logo {
+  width: 53vw;
+}
+body .film .film__actions {
+  margin-top: 63px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 415px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .film .film__actions .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #8D0019;
+  text-decoration: none;
+  background: #fff;
+  padding: 15px 35.2px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+body .film .film__actions .button img {
+  margin-right: 10px;
+}
+body .film .film__actions .film__tickets {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+}
+body .film .film__actions .film__tickets img {
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .film .venom {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 850px;
+  width: 53vw;
+}
