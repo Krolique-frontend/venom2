@@ -1,6 +1,15 @@
 'use strict';
 
-const trailer = document.querySelector('.trailer');
+const menu__button = document.querySelector('.menu__button');
+const close__button = document.querySelector('.close__button');
+const menu = document.querySelector('.nav__list');
+const trailer = document.querySelector('.trailer')
+    ? document.querySelector('.trailer')
+    : document.querySelector('#trailer__button');
+
+menu__button.onclick = close__button.onclick = event => {
+    menu.classList.toggle('show');
+};
 
 trailer.onclick = function () {
     const iFrame = document.createElement('iframe');

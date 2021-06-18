@@ -8,20 +8,31 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/normalize.min.css"/>
-    <link rel="stylesheet" href="css/styles.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+<!--    <link rel="stylesheet" href="css/styles.min.css"/>-->
 </head>
 <body>
 <div class="background"></div>
 
 <div class="container">
     <header class="header">
-        <a href="/" class="logoLink">
-            <img class="logoImg" src="img/i-removebg-preview%201.png" alt="logo" title="logo"/>
-        </a>
-
         <nav class="nav">
+            <a href="/" class="logoLink">
+                <img class="logoImg" src="img/i-removebg-preview%201.png" alt="logo" title="logo"/>
+            </a>
+
+            <button class="menu__button">
+                меню
+                <img src="img/menu.svg" alt="menu img"/>
+            </button>
+
             <ul class="nav__list">
+                <li class="close__button">
+                    закрыть
+                    <img src="img/close_arrow.svg" alt="close img" />
+                </li>
+
                 <li class="list__item">
                     <a href="about.html" class="list__link">о фильме</a>
                 </li>
